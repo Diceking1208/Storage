@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 int main()
 {
 
@@ -9,11 +8,9 @@ int main()
 	int i = 0;
 	while(i<450)
 	{
-		screen[i]='0';
 		i=i+1;
 	}
 	
-
 	int a = 0;
 	while(a<15)
 	{
@@ -33,7 +30,8 @@ int main()
 				screen[b]=' ';
 			}
 			b=b+1;
-		}	
+		}
+
 		screen[30]='\0';
 		a=a+1;
 		printf("%s\n",screen);
