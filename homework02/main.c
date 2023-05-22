@@ -33,14 +33,12 @@ int main()
                 system("cls");
                 title(screen, width, height);
                 setTitle(screen,width,height);
-                continue;
             }
             else if(input == '2')
             {
                 system("cls");
                 title(screen, width, height);
                 sethow(screen,width,height);
-                continue;
             }
         }
         else if(input == '3')
@@ -55,14 +53,12 @@ int main()
             if(input == '1')
             {
                 game = 0;
-                continue;
             }
             else if(input == '2')
             {
                 system("cls");
                 title(screen, width, height);
                 setTitle(screen,width,height);
-                continue;
             }
         }
     }

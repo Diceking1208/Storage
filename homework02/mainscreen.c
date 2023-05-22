@@ -1,5 +1,4 @@
 #include "screen.h"
-#include <stdio.h>
 
 int title(char* screen, int width, int height)
 {
@@ -35,7 +34,7 @@ int title(char* screen, int width, int height)
 
 int writeString(const char* string, char* screen, int width, int x, int y)
 {
-    int index = x + (y * width ); // 위치에 해당하는 인덱스 계산
+    int index = x + (y * width ); 
     
     int i = 0;
 
