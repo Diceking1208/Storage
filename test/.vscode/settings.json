@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "screen.h": "c",
+        "stdio.h": "c",
+        "conio.h": "c"
+    }
+}

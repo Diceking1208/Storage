@@ -1,4 +1,8 @@
 #include "screen.h"
+#include <windows.h>
+#include <stdio.h>
+#include <stdlib.h>
+
 
 int title(char* screen, int width, int height)
 {
@@ -51,11 +55,12 @@ int setTitle(char* screen, int width, int height)
 {
     int x = width;
     int y = height;
+
     writeString("B a n a n a     R e s c u e", screen, width,11,3);
     writeString("o p e r a t i o n", screen, width, 16, 4);
     writeString("1. Game Start", screen, width,16,10);
     writeString("2. How to play?", screen, width,16,12);
-    writeString("3. Exit", screen, width,16,14);    
+    writeString("3. Exit", screen, width,16,14);
 }
 
 int sethow(char* screen, int width, int height)
